@@ -1,0 +1,15 @@
+{
+  "name": "prodAPI",
+  "version": "0.0.0",
+  "description": "Product REST API for PLM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Haites",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.5.1",
+    "mongodb": "^1.4.7"
+  }
+}
