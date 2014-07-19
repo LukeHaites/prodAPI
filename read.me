@@ -1,0 +1,28 @@
+//Setup Node
+npm init // to initialise package.json
+npm install express --save // to install express for various basic node framework
+npm install jade --save // to install jade for page rendering
+npm install mongojs --save // to install mongo driver
+npm install body-parser --save
+
+//Setup Git
+git init // to create git repo
+//create .gitignore file with .idea & node_modules
+git add -A
+git commit -m "initialise application"
+
+//Create folder structure
+-server // for server code
+-app // for front end code
+-public // for static content
+
+//Setup Bower for client dependency management
+npm install bower --save-dev
+//create .bowerrc file with {"directory": "public/vendor"}
+bower init // initialise bower
+bower install jquery --save
+bower install angular angular-resource angular-route --save
+bower install toastr --save
+
+//Create application
+//start with server.js for node server code
