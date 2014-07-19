@@ -9,7 +9,9 @@
   "author": "Luke Haites",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.4.3",
     "express": "^4.5.1",
-    "mongodb": "^1.4.7"
+    "mongodb": "^1.4.7",
+    "mongojs": "^0.13.0"
   }
 }
